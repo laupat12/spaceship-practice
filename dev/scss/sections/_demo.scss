@@ -1,0 +1,54 @@
+/* =============
+    Demo Spaceship
+============= */
+
+#wrapper{
+  width:1000px;
+  height:800px;
+  margin:0 auto;
+  background-color: #436b6f;
+  overflow: hidden;
+  position: relative;
+
+  /* guide */
+  // background-image: url('../img/guide.jpg');
+  // background-size: cover;
+}
+
+#cloud-container{
+  position:absolute;
+  width:1000px;
+  height:800px;
+  left:0;
+  top:0;
+}
+.clouds{
+  position:absolute;
+  left:0;
+  bottom:0;
+
+}
+
+#rocket-container{
+  position:absolute;
+  width:112px;
+  height:232px;
+  left:0;
+  top:0;
+}
+// large flame
+#rocket-container img:nth-child(1){
+  position:absolute;
+  left:30px;
+  top:212px;
+}
+#rocket-container img:nth-child(2){
+  position:absolute;
+  left:1px;
+  top:230px;
+}
+#rocket-container img:nth-child(3){
+  position:absolute;
+  left:97px;
+  top:230px;
+}
